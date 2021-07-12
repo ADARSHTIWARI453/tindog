@@ -1,0 +1,130 @@
+
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6{
+ font-family: Montserrat-bold;
+}
+/*****      headings           ********/
+.heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-align: left;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/***********   container section   ***********/
+.container-fluid{
+  padding: 7% 15%;
+}
+.colored{
+  background-color:#ff4c68;
+  color:#fff;
+}
+.white{
+  background-color:#fff;
+}
+/* ********** navagation-bar    ***********/
+.navbar{
+  padding:0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-right: 400px;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.5rem;
+  font-family: Montserrat-light;
+  font-weight: bold;
+}
+/***********    button-section  ************** */
+.downlode-button{
+  margin: 5% 3% 5% 0;
+}
+/**********          title-section         *************/
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+.title-images{
+  width: 20%;
+  transform: rotate(25deg);
+position: absolute;
+margin-left: 5%;
+}
+/***********     feature-section       ***********/
+#features{
+   position: relative;
+}
+.box{
+  padding: 5%;
+}
+.feature-text{
+  font-size: 1.5rem;
+}
+p{
+  color: #8f8f8f;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+/*************     testimonial section          ***************/
+.test-images{
+  width: 15%;
+  border-radius: 100%;
+  padding: 20px  40px;
+}
+.testimonial-text{
+.font-size: 3rem;
+line-height: 1.5;
+}
+/*******   press sexction    *************/
+#press{
+  padding-bottom: 3%;
+}
+.press-image{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/***************     pricing-section     ***************/
+#pricing{
+  padding: 100px;
+}
+.pricing-coloum{
+  padding:3%;
+}
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+@media (max-width:995px) {
+  #title{
+    text-align: center;
+  }
+  .title-images{
+    width:60%;
+    transform: rotate(0deg);
+  position: static;
+  }
+}
+/******  call to action    ************/
+.cta-heading{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+/**************footer-section       ***************/
+ .social-icon{
+  margin: 20px 10px;
+}
